@@ -13,12 +13,14 @@ export const Overlay: React.FC = () => {
       
       {/* Section 1: Introduction */}
       <div className="relative w-screen h-screen flex flex-col justify-center items-center text-white p-6 md:p-10 pointer-events-none">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter mb-4 opacity-90 text-center uppercase">
-          ABI <br/> <span className="text-cyan-400">Automated Business Intelligence</span>
-        </h1>
-        <p className="text-base sm:text-lg md:text-xl opacity-60 max-w-md text-center px-4">
-          Custom AI automations for healthcare operations. Done-for-you solutions, not DIY software.
-        </p>
+        <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 md:p-10 border border-white/10">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tighter mb-4 opacity-90 text-center uppercase">
+            ABI <br/> <span className="text-cyan-400">Automated Business Intelligence</span>
+          </h1>
+          <p className="text-base sm:text-lg md:text-xl opacity-60 max-w-md text-center px-4">
+            Custom AI automations for healthcare operations. Done-for-you solutions, not DIY software.
+          </p>
+        </div>
         <div className="absolute bottom-10 flex flex-col items-center animate-bounce opacity-50">
             <p className="text-xs font-bold tracking-widest uppercase mb-2">Scroll Down</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
@@ -27,7 +29,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section 2: Dissolution */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-          <div className="max-w-lg text-left">
+          <div className="max-w-lg text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6 text-cyan-400">TRANSFORMATION</h2>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed opacity-80">
                 Turn spreadsheets, reports, and routine tasks <br/>
@@ -38,7 +40,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section 2.5: Reconstruction */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-          <div className="max-w-lg text-right">
+          <div className="max-w-lg text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6 text-cyan-400">HEALTHCARE OPERATIONS</h2>
             <p className="text-lg sm:text-xl md:text-2xl leading-relaxed opacity-80">
                 Tailored AI workflows for healthcare. <br/>
@@ -139,7 +141,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section: Hidden labor */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Hidden labor in healthcare operations
           </h2>
@@ -152,7 +154,7 @@ export const Overlay: React.FC = () => {
       
       {/* New Section: What we automate */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             What we automate
           </h2>
@@ -168,7 +170,7 @@ export const Overlay: React.FC = () => {
       
       {/* Section: Why automation breaks */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Why most automations fail
           </h2>
@@ -180,7 +182,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: ABI philosophy */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             The ABI approach
           </h2>
@@ -195,7 +197,7 @@ export const Overlay: React.FC = () => {
       
       {/* New Section: Fits your stack */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Fits your current stack
           </h2>
@@ -211,7 +213,7 @@ export const Overlay: React.FC = () => {
       
       {/* Section: Human checkpoints */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Human-in-the-loop when it matters
           </h2>
@@ -223,7 +225,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Messy exports */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Built for messy healthcare data
           </h2>
@@ -238,7 +240,7 @@ export const Overlay: React.FC = () => {
       
       {/* New Section: Reliable by design */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Reliable by design
           </h2>
@@ -251,7 +253,7 @@ export const Overlay: React.FC = () => {
       
       {/* Section: Maintainability */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Maintained for the long term
           </h2>
@@ -263,7 +265,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Staff turnover */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Resilient to staff turnover
           </h2>
@@ -278,7 +280,7 @@ export const Overlay: React.FC = () => {
       
       {/* New Section: Healthcare-aware */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Built for healthcare realities
           </h2>
@@ -291,7 +293,7 @@ export const Overlay: React.FC = () => {
       
       {/* Section: Scheduling */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Runs on your schedule
           </h2>
@@ -303,7 +305,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Auditability */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Clear audit trails
           </h2>
@@ -315,7 +317,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Error costs */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             The real cost of manual errors
           </h2>
@@ -330,7 +332,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Incremental rollout */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Start small, expand gradually
           </h2>
@@ -342,7 +344,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Compounding value */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Automation compounds
           </h2>
@@ -354,7 +356,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: vs DIY tools */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             ABI vs DIY automation tools
           </h2>
@@ -366,7 +368,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: vs hiring */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             ABI vs hiring an automation engineer
           </h2>
@@ -378,7 +380,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Calm operations */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Operations should be calm
           </h2>
@@ -390,7 +392,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Time to value */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Weeks to working automation
           </h2>
@@ -402,7 +404,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: No platform lock-in */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             No platform lock-in
           </h2>
@@ -414,7 +416,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Validation loops */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Built-in validation
           </h2>
@@ -426,7 +428,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Error handling */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Graceful error handling
           </h2>
@@ -438,7 +440,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Versioning */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Version control for workflows
           </h2>
@@ -450,7 +452,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Documentation */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Living documentation
           </h2>
@@ -462,7 +464,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Scalability */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Scales with your growth
           </h2>
@@ -474,7 +476,7 @@ export const Overlay: React.FC = () => {
       </div>
       {/* Section: Real-world testing */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Tested on your actual files
           </h2>
@@ -487,7 +489,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section: Transparent pricing */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-left">
+        <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             Predictable costs
           </h2>
@@ -500,7 +502,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section: Partner not vendor */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-        <div className="max-w-2xl text-right">
+        <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">
             A partner, not just a vendor
           </h2>
@@ -519,7 +521,7 @@ export const Overlay: React.FC = () => {
       {/* Section 4: New text after ABI - Left aligned */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none relative">
           <p className="absolute top-20 left-0 right-0 text-xs sm:text-sm text-center opacity-50 uppercase tracking-widest">What we do</p>
-          <div className="max-w-2xl text-left">
+          <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">Step 1: Discover your manual workflows</h2>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed opacity-80">
                 We meet with your operations and billing teams to identify the repetitive processes stealing your time — from timesheet exports to monthly payer reports.
@@ -529,7 +531,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section 5: New text after ABI - Right aligned */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-          <div className="max-w-2xl text-right">
+          <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">Step 2: Design a tailored automation</h2>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed opacity-80">
                 We translate those processes into a clear, step-by-step automation, powered by our internal 'patch' framework. You don't worry about prompts or tools. We handle the logic.
@@ -539,7 +541,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section 6: Additional text - Left aligned */}
       <div className="w-screen h-[100vh] flex items-center justify-start px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-          <div className="max-w-2xl text-left">
+          <div className="max-w-2xl text-left bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">Step 3: Build, test, and validate</h2>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed opacity-80">
                 ABI builds the workflow around your real files and systems, then iterates with your team until outputs are accurate, reliable, and ready for production.
@@ -549,7 +551,7 @@ export const Overlay: React.FC = () => {
 
       {/* Section 7: Additional text - Right aligned */}
       <div className="w-screen h-[100vh] flex items-center justify-end px-6 sm:px-12 md:px-20 text-white pointer-events-none">
-          <div className="max-w-2xl text-right">
+          <div className="max-w-2xl text-right bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6 text-cyan-400">Step 4: Run it quietly in the background</h2>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed opacity-80">
                 Once live, your automation runs on a schedule or trigger. You get a simple portal to see what ran, what succeeded, and where attention is needed.
@@ -563,15 +565,17 @@ export const Overlay: React.FC = () => {
 
       {/* New Section: CTA bridge */}
       <div className="w-screen h-[100vh] flex flex-col justify-center items-center text-white p-6 md:p-10 pointer-events-none">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6 text-center max-w-4xl">
-          Stop rebuilding the same spreadsheets every week.
-        </h2>
-        <p className="text-base sm:text-lg md:text-xl opacity-70 max-w-2xl text-center">
-          ABI delivers done-for-you automations so your team focuses on operations — not manual workarounds.
-        </p>
-        <p className="text-xs sm:text-sm opacity-50 mt-6 uppercase tracking-widest">
-          Scroll for the ABI vs tools breakdown
-        </p>
+        <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 md:p-10 border border-white/10 max-w-5xl">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6 text-center">
+            Stop rebuilding the same spreadsheets every week.
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl opacity-70 text-center">
+            ABI delivers done-for-you automations so your team focuses on operations — not manual workarounds.
+          </p>
+          <p className="text-xs sm:text-sm opacity-50 mt-6 uppercase tracking-widest text-center">
+            Scroll for the ABI vs tools breakdown
+          </p>
+        </div>
       </div>
 
       {/* ========================================
@@ -581,13 +585,15 @@ export const Overlay: React.FC = () => {
 
       {/* Section 8: Why ABI Page */}
       <div className="w-screen min-h-screen flex flex-col justify-start items-center text-white p-6 md:p-10 py-20 pointer-events-none">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-12 text-center max-w-5xl leading-tight">
-          Why teams choose ABI over generic automation tools
-        </h1>
+        <div className="bg-black/50 backdrop-blur-sm rounded-2xl p-8 md:p-10 border border-white/10 mb-8">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-center max-w-5xl leading-tight">
+            Why teams choose ABI over generic automation tools
+          </h1>
+        </div>
         
         <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {/* Left side - intro and benefits */}
-          <div className="space-y-8">
+          <div className="space-y-8 bg-black/50 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
             <p className="text-base sm:text-lg opacity-70 leading-relaxed">
               Most tools ask your staff to become mini-developers: learn a platform, build flows, maintain them. <span className="font-bold text-white">ABI flips that model.</span> We deliver fully-managed automations, tailored to healthcare.
             </p>
