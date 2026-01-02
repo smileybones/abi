@@ -67,7 +67,7 @@ export const Experience: React.FC = () => {
       </Suspense>
 
       {/* No damping for instant scroll response */}
-      <ScrollControls pages={50} damping={0}>
+      <ScrollControls pages={58} damping={0}>
         <CameraHandler />
         
         <Suspense fallback={null}>

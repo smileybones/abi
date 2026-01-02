@@ -31,9 +31,9 @@ const App: React.FC = () => {
       if (!scrollContainer) return;
       
       const scrollPercent = scrollContainer.scrollTop / (scrollContainer.scrollHeight - scrollContainer.clientHeight);
-      // Steps are at pages 46-49, which is around scroll positions 0.92 to 0.98
-      setIsAtSteps(scrollPercent >= 0.90 && scrollPercent <= 0.98);
-      // Why ABI section is at page 50, which is around scroll position 0.98 to 1.0
+      // Steps are at pages 53-56 out of 58 (0.912 to 0.965)
+      setIsAtSteps(scrollPercent >= 0.90 && scrollPercent <= 0.97);
+      // Why ABI section is at pages 58 out of 58 (0.982 to 1.0)
       setIsAtWhyABI(scrollPercent >= 0.98);
     };
     
@@ -117,8 +117,8 @@ const App: React.FC = () => {
       currentScrollTop: scrollContainer.scrollTop
     });
     
-    // Step 1 is at page 46 out of 50 pages (0.92)
-    const targetScroll = 0.92 * (scrollContainer.scrollHeight - scrollContainer.clientHeight);
+    // Step 1 ("What we do") is at page 53 out of 58 pages (52/57 = 0.912)
+    const targetScroll = 0.912 * (scrollContainer.scrollHeight - scrollContainer.clientHeight);
     console.log('Target scroll position:', targetScroll);
     scrollContainer.scrollTo({ top: targetScroll, behavior: 'smooth' });
   };
@@ -158,8 +158,8 @@ const App: React.FC = () => {
       currentScrollTop: scrollContainer.scrollTop
     });
     
-    // Why ABI section is at page 50 out of 50 pages (1.0)
-    const targetScroll = 1.0 * (scrollContainer.scrollHeight - scrollContainer.clientHeight);
+    // Why ABI section is at page 58 out of 58 pages (57/57 = 1.0, targeting 0.982)
+    const targetScroll = 0.982 * (scrollContainer.scrollHeight - scrollContainer.clientHeight);
     console.log('Target scroll position:', targetScroll);
     scrollContainer.scrollTo({ top: targetScroll, behavior: 'smooth' });
   };

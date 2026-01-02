@@ -90,8 +90,8 @@ export const VoxelParticles: React.FC = () => {
 
       tempObject.position.set(currentX, currentY, currentZ);
       
-      // Orient voxels forward as logo forms
-      const rotationT = THREE.MathUtils.smoothstep(progress, 0.4, 0.6);
+      // Orient voxels forward as logo forms - shortened spin duration
+      const rotationT = THREE.MathUtils.smoothstep(progress, 0.3, 0.45);
       const rotationSpeed = (1 - rotationT) * (time + i * 0.1);
       tempObject.rotation.set(rotationSpeed, rotationSpeed, 0);
 
